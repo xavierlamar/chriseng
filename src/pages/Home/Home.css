@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.home_header {
+    opacity: 1;
+}
+
+.home_product_services {
+    padding-top: 4rem;
+}
+
+.image_home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_home img {
+    padding-right: 2rem;
+}
+
+.home_text p {
+    text-align: left;
+    font: normal normal normal 16px/23px Istok Web;
+    letter-spacing: 0px;
+    color: #565656;
+    opacity: 1;
+}
+
+.product_box {
+    background: #ECFDFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 35px #00000008;
+    opacity: 1;
+    margin-bottom: 2rem;
+}
+
+
+.product_box_one p {
+    width: 100%;
+    color: #000000;
+}
+
+.product_box_two h5 {
+    width: 59px;
+    height: 20px;
+    text-align: left;
+    font: normal normal bold 14px/20px Istok Web;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 0.75;
+}
+
+.home_banner {
+    background-image: url(./../../assets/meat.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.463);
+    color: #fff;
+
+}
+
+
+.overlay button {
+    width: 18.438rem;
+    height: 70px;
+    background: #B09043 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    font: normal normal bold 23px/25px Lato;
+    letter-spacing: 0px;
+    color: #FEF3F3;
+}
+
+.overlay h2 {
+    font: normal normal normal 60px/60px Abril Fatface;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.service_home {
+    width: 100%;
+    height: 100%;
+    background: #FFFBEF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.item1{
+    display: flex;
+}
+
+.items_services {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.service_item {
+    width: 100%;
+    background: transparent linear-gradient(304deg, #000000 0%, #47B18C 100%) 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    opacity: 0.8;
+    margin-top: 2rem;
+}
+
+
+
+.service_text {
+    justify-content: center;
+    align-items: center;
+}
+
+.service_text h2 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.service_text h4 {
+    text-align: left;
+    font: normal normal medium 15px/21px Acumin Pro;
+    letter-spacing: 0.38px;
+    color: #F0F0F0;
+    opacity: 0.35;
+}
+
+.service_text p {
+    color: #FCFCFC;
+    opacity: 0.69;
+}
+
+.service_text button {
+    width: 135px;
+    height: 44px;
+    /* UI Properties */
+    background: #010002 0% 0% no-repeat padding-box;
+    border-radius: 22px;
+    opacity: 0.81;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    color: #fff;
+}
+
+.service_box {
+    width: 552px;
+    height: 507px;
+    /* UI Properties */
+    background: #CDFDFF 0% 0% no-repeat padding-box;
+    border-radius: 22px;
+
+}
+.service_box p{
+    text-align: left;
+font: normal normal normal 16px/32px Istok Web;
+letter-spacing: 0px;
+color: #391400A3;
+}
+
+.service_box h1 {
+    color: #000000;
+    font-size: 56px;
+}
+
+.service_box button {
+    width: 9.813rem;
+    height: 48px;
+    background: #B09043 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 9px #39140014;
+    opacity: 1;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.help {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.help_block {
+    width: 50.75rem;
+    height: 154px;
+    /* UI Properties */
+    background: #F9E5DA 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help_block p {
+    color: #391400;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:1050px) {
+
+    .overlay{
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 2rem 1rem 2rem;
+        justify-content: center;
+        
+    }
+    .image_home{
+        flex-direction: column;
+    }
+    .item1{
+        flex-direction: column;
+    }
+    .service_home{
+        flex-direction: column;
+    }
+    .service_item{
+        width: auto;
+    }
+    .service_box{
+        width: 100%;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .service_item{
+        width: auto;
+    }
+}
+
+@media screen and (max-width:500px) {}
