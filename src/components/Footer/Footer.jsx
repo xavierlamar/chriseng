@@ -32,14 +32,14 @@ const Footer = () => {
         <div className="footer_section2 py-4">
             <div className='flex'>
 
-            <div className='section1 px-10'>
+            <div className='section11 px-10'>
                 <h6>Navigation</h6>
                 <p>Home</p>
                 <p>Discover</p>
                 <p>Search</p> 
                 <p>Upload</p> 
             </div>
-            <div  className='section2 px-10'>
+            <div  className='section22 px-10'>
                 <h6>Links</h6>
                 <p>about Us</p>
                 <p>Contact Us</p>

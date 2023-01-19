@@ -11,12 +11,10 @@ const ProductService = () => {
       <NavBar />
       <div className="header">
         <div className="image-overlay">
+          <div>
           <h1>Title of the horizontal block</h1>
-          <div className='textbutton'>
-            <div className='paragraph'>
-              <p>Lorem ipsum dolor sit amet, solum dictas vim cu, ne his hendrerit deterruisset, id sed doctus fuisset intellegam.Per case melius assentior ea. Et scaevola insolens eum. Ad vix verear eruditi ancillae, fabulas assentiorhis at, eum no dico euripidis reprehendunt. Cibo delectus eu ius, usu veri putent at. </p>
-              <button>Read the article</button>
-            </div>
+          <p>Lorem ipsum dolor sit amet, solum dictas vim cu, ne his hendrerit deterruisset, id sed doctus fuisset intellegam. Per case melius assentior ea. Et scaevola insolens eum. Ad vix verear eruditi ancillae, fabulas assentior his at, eum no dico euripidis reprehendunt. Cibo delectus eu ius, usu veri putent at.</p>
+          <button>Read the article</button>
           </div>
         </div>
 

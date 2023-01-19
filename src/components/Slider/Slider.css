@@ -1,5 +1,10 @@
 .back{
     border: 1px solid black;
 }
-.Slider{
+
+.image{
+    background: url(./../../assets/header1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
