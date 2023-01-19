@@ -5,6 +5,7 @@ import AboutPage from './pages/AboutPage/AboutPage';
 import Contact from './pages/ContactPage/Contact';
 import ProductService from './pages/ProductServices/ProductService';
 import ProductDetails from './pages/ProductDetails/ProductDetails';
+import Admin from './pages/Admin/Admin';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="product_services" element={<ProductService />} />
           <Route path="product_details" element={<ProductDetails />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="dashboard" element={<Admin />} />
           {/* <Route path="*" element={<NoPage />} /> */}
       </Routes>
     </BrowserRouter>
