@@ -100,6 +100,10 @@ align-items: center;
     margin: 2rem 0 2rem 0;
 
 }
+.process_text p{
+    color: #FFF;
+
+}
 
 .process_section img{
     width: 636px;

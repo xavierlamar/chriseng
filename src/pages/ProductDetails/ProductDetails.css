@@ -63,11 +63,10 @@ height: 872px;
 
 .other_products h1{
 
-text-align: left;
+text-align: center;
 font: normal normal bold 40px/48px Istok Web;
 letter-spacing: 0px;
 color: #000000;
-padding-right: 75rem;
 }
 
 @media screen and (max-width:1050px){

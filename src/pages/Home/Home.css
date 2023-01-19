@@ -18,11 +18,15 @@
 }
 
 .image_home img {
-    padding-right: 2rem;
+    /* padding-right: 2rem; */
 }
 
+.home_text{
+    margin-left: 1.25rem;
+
+}
 .home_text p {
-    text-align: left;
+    text-align: justify;
     font: normal normal normal 16px/23px Istok Web;
     letter-spacing: 0px;
     color: #565656;
@@ -37,15 +41,20 @@
 }
 
 
+.product_box_one  {
+    padding: 2.5rem 3rem;
+
+}
 .product_box_one p {
     width: 100%;
     color: #000000;
+    text-align: justify;
 }
 
 .product_box_two h5 {
     width: 59px;
     height: 20px;
-    text-align: left;
+    text-align: center;
     font: normal normal bold 14px/20px Istok Web;
     letter-spacing: 0px;
     color: #333333;
@@ -79,6 +88,7 @@
 
 
 .overlay button {
+    text-decoration: none;
     width: 18.438rem;
     height: 70px;
     background: #B09043 0% 0% no-repeat padding-box;
@@ -246,6 +256,14 @@ color: #391400A3;
 @media screen and (max-width:700px) {
     .service_item{
         width: auto;
+    }
+    .home_text{
+        margin-left: 0;
+    
+    }
+    .product_box_one h4  {
+        text-align: center;
+    
     }
 }
 

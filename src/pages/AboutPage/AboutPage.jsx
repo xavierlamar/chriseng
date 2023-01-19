@@ -8,7 +8,6 @@ import team2 from './../../assets/team2.png'
 import team3 from './../../assets/team3.png'
 import team4 from './../../assets/team4.png'
 import team5 from './../../assets/team5.png'
-import buttonicon from './../../assets/buttonicon.png'
 import process_img from './../../assets/process_img.png'
 import { AiOutlinePlusCircle } from 'react-icons/ai'
 const AboutPage = () => {

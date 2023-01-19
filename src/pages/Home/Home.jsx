@@ -9,6 +9,7 @@ import image1 from './../../assets/image1.png'
 import colon from './../../assets/colon.png'
 import { Slider } from '@mui/material';
 import NavBar from '../../components/NavBar/NavBar';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -32,7 +33,7 @@ const Home = () => {
             <div className='product_box my-3'>
               <Row>
                 <Col sm={7}>
-                <div className='product_box_one py-10 px-12'>
+                <div className='product_box_one'>
                   <h4>Why Buy From Us ?</h4>
                   <p>
                     Lorem ipsum dolor sit amet, solum dictas vim cu, ne his hendrerit deterruissetid sed doctus fuisset intellegam. Per case melius assentior ea. Et scaevola insolens eum. Ad vix verear eruditi ancillae, fabulas assentior his at, eum no dico euripidis reprehendunt.
@@ -70,11 +71,12 @@ const Home = () => {
         <div className='home_banner'>
             <div className="overlay">
           <h2 className=''>How & Why of our<br/> products and services</h2>
-          <button className=''>Read More</button>
+          <Link to="/about"><button className=''>Read More</button></Link>
             </div>
         </div>
 
-        <div className='service_home pt-3 pb-16'>
+        <div className="service_home">
+        <Container className='service_home pt-3 pb-16'>
           <div className='item1'>
             <div className='items_services px-8'>
             <div className="service_item">
@@ -82,7 +84,7 @@ const Home = () => {
                 <h4>Store</h4>
                 <h2>Service name</h2>
                 <p>Lorem ipsum dolor sit amet, solum dictas vim cu, ne his hendrerit deterruisset, id sed doctus <br/>fuisset intellegam.</p>
-                <button>Read More</button>
+                <Link to="/product_services"><button>Read More</button></Link>
               </div>
             </div>
             <div className="service_item">
@@ -90,7 +92,7 @@ const Home = () => {
                 <h4>Store</h4>
                 <h2>Service name</h2>
                 <p>Lorem ipsum dolor sit amet, solum dictas vim cu, ne his hendrerit deterruisset, id sed doctus <br/>fuisset intellegam.</p>
-                <button>Read More</button>
+                <Link to="/product_services"><button>Read More</button></Link>
               </div>
             </div>
             </div>
@@ -100,7 +102,7 @@ const Home = () => {
                 <h4>Store</h4>
                 <h2>Service name</h2>
                 <p>Lorem ipsum dolor sit amet, solum dictas vim cu, ne his hendrerit deterruisset, id sed doctus <br/>fuisset intellegam.</p>
-                <button>Read More</button>
+                <Link to="/product_services"><button>Read More</button></Link>
               </div>
             </div>
             <div className="service_item">
@@ -108,7 +110,7 @@ const Home = () => {
                 <h4>Store</h4>
                 <h2>Service name</h2>
                 <p>Lorem ipsum dolor sit amet, solum dictas vim cu, ne his hendrerit deterruisset, id sed doctus <br/>fuisset intellegam.</p>
-                <button>Read More</button>
+                <Link to="/product_services"><button>Read More</button></Link>
               </div>
             </div>
             </div>
@@ -120,9 +122,10 @@ const Home = () => {
                 </h1>
                 <h6 className='pt-4'>Provides a full service range</h6>
                 <p>Ability to put themselves in the merchant's shoes. It is meant to <br/>partner on the long run, and work as an extension of the merchant's <br/>team.</p>
-                <button className='pt4'>About Us</button>
+                <Link to="/about"><button className='pt4'>About Us</button></Link>
               </div>
             </div>
+        </Container>
         </div>
 
         <div className="help pt-4 pb-12">
