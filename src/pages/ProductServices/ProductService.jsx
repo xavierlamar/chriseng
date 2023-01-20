@@ -27,7 +27,7 @@ const ProductService = () => {
             <p>Unlock The Greatest <br />Value Possible</p>
           </div>
           <div className="banner_item2">
-            <p>Lorem ipsum dolor sit amet, solum dictas vim cu, ne his hendrerit deterruisset, id sed doctus fuisset intellegam. Per case melius <br /> assentior ea. Et scaevola insolens eum. Ad vix verear eruditi ancillae, fabulas assentior his at, eum no dico euripidis reprehendunt.<br /> Cibo delectus eu ius, usu veri putent at. His tamquam evertitur appellantur an, eam omnis blandit officiis id, eu nostro tacimates pri. <br />Te vim denique fabellas deseruisse, ad est mandamus neglegentur, vim adhuc consequat an. At putent commodo patrioque pro, nihil<br /> reprimique et pro. Et sea graece consulatu conclusionemque. Doctus iudicabit ex eam.</p>
+            <p>Lorem ipsum dolor sit amet, solum dictas vim cu, ne his hendrerit deterruisset, id sed doctus fuisset intellegam. Per case melius  assentior ea. Et scaevola insolens eum. Ad vix verear eruditi ancillae, fabulas assentior his at, eum no dico euripidis reprehendunt. Cibo delectus eu ius, usu veri putent at. His tamquam evertitur appellantur an, eam omnis blandit officiis id, eu nostro tacimates pri. Te vim denique fabellas deseruisse, ad est mandamus neglegentur, vim adhuc consequat an. At putent commodo patrioque pro, nihil reprimique et pro. Et sea graece consulatu conclusionemque. Doctus iudicabit ex eam.</p>
           </div>
         </div>
       </div>
@@ -147,7 +147,7 @@ const ProductService = () => {
             <p>Unlock The Greatest <br />Value Possible</p>
           </div>
           <div className="banner_item2">
-            <p>Lorem ipsum dolor sit amet, solum dictas vim cu, ne his hendrerit deterruisset, id sed doctus fuisset intellegam. Per case melius <br /> assentior ea. Et scaevola insolens eum. Ad vix verear eruditi ancillae, fabulas assentior his at, eum no dico euripidis reprehendunt.<br /> Cibo delectus eu ius, usu veri putent at. His tamquam evertitur appellantur an, eam omnis blandit officiis id, eu nostro tacimates pri. <br />Te vim denique fabellas deseruisse, ad est mandamus neglegentur, vim adhuc consequat an. At putent commodo patrioque pro, nihil<br /> reprimique et pro. Et sea graece consulatu conclusionemque. Doctus iudicabit ex eam.</p>
+            <p>Lorem ipsum dolor sit amet, solum dictas vim cu, ne his hendrerit deterruisset, id sed doctus fuisset intellegam. Per case melius  assentior ea. Et scaevola insolens eum. Ad vix verear eruditi ancillae, fabulas assentior his at, eum no dico euripidis reprehendunt. Cibo delectus eu ius, usu veri putent at. His tamquam evertitur appellantur an, eam omnis blandit officiis id, eu nostro tacimates pri. Te vim denique fabellas deseruisse, ad est mandamus neglegentur, vim adhuc consequat an. At putent commodo patrioque pro, nihil reprimique et pro. Et sea graece consulatu conclusionemque. Doctus iudicabit ex eam.</p>
           </div>
         </div>
       </div>

@@ -81,12 +81,15 @@ opacity: 1;
 }
 .banner_item2{
     border-left: #fff 4px solid;
+    
 }
 
 .banner_item2 p{
     color: #fff;
     font-weight: 120;
     padding: 2rem 6rem;
+    width: 950px;
+    
 }
 
 /* product */
@@ -117,10 +120,12 @@ opacity: 1;
 height: 180px;
 border-radius: 0px 0px 5px 5px;
 opacity: 1;
-box-shadow: 2px 2px #8a8989;
 display: flex;
 flex-direction: column;
 justify-content: center;
+border-left: 1px rgb(71, 70, 70) solid; 
+border-right: 1px rgb(71, 70, 70) solid;
+border-bottom: 1px rgb(71, 70, 70) solid;
 }
 
 .img_card span{
@@ -176,6 +181,8 @@ color: #6C757D;
     font-weight: 120;
     text-align: justify;
     padding: 1rem 2rem;
+    width: 100%;
+
 }
     
 }

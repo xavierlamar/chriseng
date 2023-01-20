@@ -15,21 +15,21 @@ const Footer = () => {
   return (
     <>
     <div className="partner py-4">
-          <img src={digital} className='py-4' alt='digital'/>
-          <img src={vortex} className='py-4' alt='vortex'/>
-          <img src={travel} className='py-4' alt='travel'/>
-          <img src={fuzion} className='py-4' alt='fuzion'/>
-          <img src={mediapic} className='py-4' alt='mediaquery'/>
+          <img src={digital} className='py-4 px-20' alt='digital'/>
+          <img src={vortex} className='py-4 px-20' alt='vortex'/>
+          <img src={travel} className='py-4 px-20' alt='travel'/>
+          <img src={fuzion} className='py-4 px-20' alt='fuzion'/>
+          <img src={mediapic} className='py-4 px-20' alt='mediaquery'/>
 
         </div>
     <div className='footer py-5 px-3'>
         
-        <div className="footer_section1">
+        <div className="footer_section1 px-34">
             <h2>CHRISENG © 2018</h2>
             <h3>A Travelers’ Blog</h3>
-            <p>Our main focus is to provide high quality, objective<br/> and informative travelling content from over the world.</p>
+            <p>Our main focus is to provide high quality, objective and informative travelling content from over the world.</p>
         </div>
-        <div className="footer_section2 py-4">
+        <div className="footer_section2 py-4 px-34">
             <div className='flex'>
 
             <div className='section11 px-10'>

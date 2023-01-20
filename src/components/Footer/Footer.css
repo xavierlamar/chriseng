@@ -1,13 +1,15 @@
 .footer{
 height: 100%;
-/* UI Properties */
 background: #abe7f0;
 box-shadow: 0px -3px 46px #00000008;
 display: flex;
-justify-content: space-around;
+justify-content: center;
 align-items: center;
 }
-
+.footer_section1 p{
+    width: 376px;
+height: 55px;
+}
 .footer_section1{
 
 }
@@ -52,7 +54,7 @@ font-weight: bold;
 .partner{
     background: #F1D789 0% 0% no-repeat padding-box;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -67,6 +69,9 @@ font-weight: bold;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .footer_section1 h2,h3{
+        text-align: center;
     }
 }
 @media screen and (max-width:700px){

@@ -38,6 +38,9 @@ const Admin = () => {
         </Container>
       </Navbar>
 
+      <div className='dashboard_container'>
+        
+      </div>
 
       <div className='dashboard px-5'>
         <div className='section1 '>
@@ -84,7 +87,7 @@ const Admin = () => {
         <div className=''>
 
           {/* Slider */}
-          <div style={{ display: slider ? "none" : "block" }} className='section2 slider_items px-7'>
+          <div style={{ display: slider ? "none" : "block" }} className='section2'>
             <Slider/>
           </div>
 
